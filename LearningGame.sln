@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningGame", "LearningGame.csproj", "{6A839A1E-6A9F-800B-55EA-D18707235B26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A839A1E-6A9F-800B-55EA-D18707235B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A839A1E-6A9F-800B-55EA-D18707235B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A839A1E-6A9F-800B-55EA-D18707235B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A839A1E-6A9F-800B-55EA-D18707235B26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
