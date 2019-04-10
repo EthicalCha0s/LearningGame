@@ -14,11 +14,11 @@ public class PlayerController : MonoBehaviour {
     // Use this for initialization
     void Awake() { 
 
-        if (instance == null) {
+        if (instance == null) { //if no other player objects have been instanciated
             instance = this;
         }
         else {
-            Destroy(gameObject);
+            Destroy(gameObject); // else destroy this obj because another player object already exists
         }
 
         DontDestroyOnLoad(gameObject);
@@ -37,14 +37,5 @@ public class PlayerController : MonoBehaviour {
             playerAnimator.SetFloat("lastMoveX", Input.GetAxisRaw("Horizontal"));
             playerAnimator.SetFloat("lastMoveY", Input.GetAxisRaw("Vertical"));
         }
-
-        /*
-        if (Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical") == -1)
-        {
-            playerAnimator.SetFloat("lastMoveY", Input.GetAxisRaw("Vertical"));
-            playerAnimator.SetFloat("lastMoveX", 0);
-        }*/
-
-
     }
 }
