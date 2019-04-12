@@ -13,6 +13,9 @@ public class CameraController : MonoBehaviour {
     // Use this for initialization
     void Start() {
         target = PlayerController.instance.transform;
+        if (minY < maxY || minX<maxX) {
+            throw (new UnityException("CameraController.cs script badly initialized"));
+        }
     }
 
     // LateUpdate is called once per frame after all Updates    
@@ -23,17 +26,18 @@ public class CameraController : MonoBehaviour {
         if (desiredPosition.x >= maxX) {
             desiredPosition.x = maxX;
         }
-        if (desiredPosition.x <= minX) {
+        else if (desiredPosition.x <= minX) {
             desiredPosition.x = minX;
         }
+
         if (desiredPosition.y >= maxY) {
             desiredPosition.y = maxY;
         }
-        if (desiredPosition.y <= minY) {
+        else if (desiredPosition.y <= minY) {
             desiredPosition.y = minY;
         }
 
-        Vector3 smoothedPosition = Vector3.Lerp(this.transform.position, desiredPosition, smoothSpeed);
+        Vector3 smoothedPosition = Vector3.Lerp(this.transform.position, desiredPosition, smoothSpeed); //Camera smoothes towards desired position
 
         this.transform.position = smoothedPosition;
     }
