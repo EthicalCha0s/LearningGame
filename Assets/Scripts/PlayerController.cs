@@ -8,11 +8,12 @@ public class PlayerController : MonoBehaviour {
     public Animator playerAnimator;
     public float moveSpeed;
 
+    public CameraController camera;
     public static PlayerController instance; // to prevent duplicate players when re-entering spawn zone
     public string areaTransitionName = null;
 
     // Use this for initialization
-    void Awake() { 
+    void Awake() {
 
         if (instance == null) { //if no other player objects have been instanciated
             instance = this;
@@ -20,6 +21,7 @@ public class PlayerController : MonoBehaviour {
         else {
             Destroy(gameObject); // else destroy this obj because another player object already exists
         }
+
 
         DontDestroyOnLoad(gameObject);
     }
@@ -29,6 +31,7 @@ public class PlayerController : MonoBehaviour {
     void Update() {
 
         theRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * moveSpeed, Input.GetAxisRaw("Vertical") * moveSpeed);
+       
         playerAnimator.SetFloat("moveX", theRB.velocity.x);
         playerAnimator.SetFloat("moveY", theRB.velocity.y);
 

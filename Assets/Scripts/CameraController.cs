@@ -13,9 +13,11 @@ public class CameraController : MonoBehaviour {
     // Use this for initialization
     void Start() {
         target = PlayerController.instance.transform;
-        if (minY < maxY || minX<maxX) {
+        if (minY > maxY || minX > maxX) {
             throw (new UnityException("CameraController.cs script badly initialized"));
         }
+
+        PlayerController.instance.camera = this;
     }
 
     // LateUpdate is called once per frame after all Updates    
