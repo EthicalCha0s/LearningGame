@@ -5710,7 +5710,12 @@ PrefabInstance:
     - target: {fileID: 114805187969022656, guid: 702641b5e758742469a6bdb1a85b6b9c,
         type: 3}
       propertyPath: areaTransitionName
-      value: countryside-tiletown
+      value: country-tiletown
+      objectReference: {fileID: 0}
+    - target: {fileID: 114090935866328276, guid: 702641b5e758742469a6bdb1a85b6b9c,
+        type: 3}
+      propertyPath: transitionName
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 702641b5e758742469a6bdb1a85b6b9c, type: 3}
