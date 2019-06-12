@@ -7736,6 +7736,7 @@ GameObject:
   - component: {fileID: 1475289779}
   - component: {fileID: 1475289778}
   - component: {fileID: 1475289777}
+  - component: {fileID: 1475289782}
   m_Layer: 0
   m_Name: SlimeV2_00
   m_TagString: Player
@@ -7753,7 +7754,7 @@ Animator:
   m_GameObject: {fileID: 1475289776}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c3393991d926b3f43916a63b339d369f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7861,6 +7862,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1475289782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475289776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6438458750c2d884e931887ccaed2763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theRB: {fileID: 1475289778}
+  NPCAnimator: {fileID: 0}
+  moveSpeed: 5
+  areaTransitionName: 
 --- !u!1 &1575512739
 GameObject:
   m_ObjectHideFlags: 0

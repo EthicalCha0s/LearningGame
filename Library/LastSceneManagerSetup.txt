@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Countryside.unity
+- path: Assets/Scenes/TileTown.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

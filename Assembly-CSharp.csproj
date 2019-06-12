@@ -65,8 +65,10 @@
     <Compile Include="Assets\Scripts\AreaEntrance.cs" />
     <Compile Include="Assets\Scripts\AreaExit.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerLoader.cs" />
+    <Compile Include="Assets\Scripts\Slime.cs" />
     <None Include="Assets\Udemy RPG Assets\Licence.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Thomas Huynh/Desktop/Github/LearningGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
