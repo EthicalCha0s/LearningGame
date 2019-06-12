@@ -24,11 +24,11 @@ public class CameraController : MonoBehaviour {
         halfWidth = halfHeight * Camera.main.aspect;
 
         //setting the camera bounds
-        bottomLeft = theMap.localBounds.min+ new Vector3(halfWidth,halfHeight,0f);
-        topRight = theMap.localBounds.max + new Vector3(-halfWidth,-halfHeight,0f);
+        bottomLeft = theMap.localBounds.min + new Vector3(halfWidth, halfHeight, 0f);
+        topRight = theMap.localBounds.max + new Vector3(-halfWidth, -halfHeight, 0f);
 
         //setting bounds for player so they cannot leave bounds
-        PlayerController.instance.setBounds(theMap.localBounds.min,theMap.localBounds.max);
+        PlayerController.instance.setBounds(theMap.localBounds.min, theMap.localBounds.max);
 
         PlayerController.instance.camera = this;
     }
