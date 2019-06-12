@@ -7,30 +7,29 @@ public class CameraController : MonoBehaviour {
 
     public Transform target;
     public Tilemap theMap;
-    public Vector3 bottomLeft; //Bottom left camera limit
-    public Vector3 topRight; //top right camera limit
+    private Vector3 bottomLeft; //Bottom left camera limit
+    private Vector3 topRight; //top right camera limit
 
     public float halfHeight;
     public float halfWidth;
 
     public float smoothSpeed = 0.05f;
-    public int maxX, maxY, minX, minY;
 
 
     // Use this for initialization
     void Start() {
         target = PlayerController.instance.transform;
-        if (minY > maxY || minX > maxX) {
-            throw (new UnityException("CameraController.cs script badly initialized"));
-        }
         //getting the camera size
         halfHeight = Camera.main.orthographicSize;
         halfWidth = halfHeight * Camera.main.aspect;
 
         //setting the camera bounds
         bottomLeft = theMap.localBounds.min+ new Vector3(halfWidth,halfHeight,0f);
-        topRight = theMap.localBounds.max + new Vector3(halfWidth,halfHeight,0f);
-        
+        topRight = theMap.localBounds.max + new Vector3(-halfWidth,-halfHeight,0f);
+
+        //setting bounds for player so they cannot leave bounds
+        PlayerController.instance.setBounds(theMap.localBounds.min,theMap.localBounds.max);
+
         PlayerController.instance.camera = this;
     }
 

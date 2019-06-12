@@ -12,6 +12,9 @@ public class PlayerController : MonoBehaviour {
     public static PlayerController instance; // to prevent duplicate players when re-entering spawn zone
     public string areaTransitionName = null;
 
+    private Vector3 bottomLeft;
+    private Vector3 topRight;
+
     // Use this for initialization
     void Awake() {
 
@@ -23,6 +26,7 @@ public class PlayerController : MonoBehaviour {
         }
 
 
+
         DontDestroyOnLoad(gameObject);
     }
 
@@ -31,7 +35,7 @@ public class PlayerController : MonoBehaviour {
     void Update() {
 
         theRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * moveSpeed, Input.GetAxisRaw("Vertical") * moveSpeed);
-       
+
         playerAnimator.SetFloat("moveX", theRB.velocity.x);
         playerAnimator.SetFloat("moveY", theRB.velocity.y);
 
@@ -40,5 +44,22 @@ public class PlayerController : MonoBehaviour {
             playerAnimator.SetFloat("lastMoveX", Input.GetAxisRaw("Horizontal"));
             playerAnimator.SetFloat("lastMoveY", Input.GetAxisRaw("Vertical"));
         }
+
+        transform.position =
+            new Vector3(
+                Mathf.Clamp(transform.position.x, bottomLeft.x, topRight.x),
+                Mathf.Clamp(transform.position.y, bottomLeft.y, topRight.y),
+                this.transform.position.z);
+    }
+
+    public void setBounds(Vector3 bottomLeft, Vector3 topRight) {
+        /* Function:
+        -Sets the bounds of the player controller
+        -Player will not be able to move outside of rectangle descibed
+        by the bounds
+        -Function called by Scenes' CameraController
+         */
+        this.bottomLeft = bottomLeft;
+        this.topRight = topRight;
     }
 }
