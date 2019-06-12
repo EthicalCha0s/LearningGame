@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour {
         by the bounds
         -Function called by Scenes' CameraController
          */
-        this.bottomLeft = bottomLeft + new Vector3(1f,1f,0f);
-        this.topRight = topRight + new Vector3(-1f, -1f, 0f);
+        this.bottomLeft = bottomLeft + new Vector3(.2f,.2f,0f);
+        this.topRight = topRight + new Vector3(-.2f, -.2f, 0f);
     }
 }
