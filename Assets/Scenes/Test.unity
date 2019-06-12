@@ -167,6 +167,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6459734452325774005}
   m_PrefabAsset: {fileID: 0}
+--- !u!1839735485 &555415891 stripped
+Tilemap:
+  m_CorrespondingSourceObject: {fileID: 6459734452385998470, guid: 269b1ec3468b48d498dd5bee8631b51e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6459734452325774005}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &564283729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -226,6 +232,11 @@ PrefabInstance:
       propertyPath: minY
       value: -10
       objectReference: {fileID: 0}
+    - target: {fileID: 114628541977215496, guid: 1979eaf12dbcdf14f8987241d295ed57,
+        type: 3}
+      propertyPath: theMap
+      value: 
+      objectReference: {fileID: 555415891}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1979eaf12dbcdf14f8987241d295ed57, type: 3}
 --- !u!1 &1017450369

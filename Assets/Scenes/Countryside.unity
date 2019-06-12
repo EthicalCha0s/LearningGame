@@ -7680,6 +7680,11 @@ PrefabInstance:
       propertyPath: minY
       value: -7
       objectReference: {fileID: 0}
+    - target: {fileID: 114628541977215496, guid: 1979eaf12dbcdf14f8987241d295ed57,
+        type: 3}
+      propertyPath: theMap
+      value: 
+      objectReference: {fileID: 302876512}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1979eaf12dbcdf14f8987241d295ed57, type: 3}
 --- !u!1001 &1387719231
