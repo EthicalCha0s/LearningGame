@@ -6,7 +6,6 @@ public class CameraController : MonoBehaviour {
 
     public Transform target;
     public float smoothSpeed = 0.05f;
-
     public int maxX, maxY, minX, minY;
 
 
@@ -40,7 +39,6 @@ public class CameraController : MonoBehaviour {
         }
 
         Vector3 smoothedPosition = Vector3.Lerp(this.transform.position, desiredPosition, smoothSpeed); //Camera smoothes towards desired position
-
         this.transform.position = smoothedPosition;
     }
 }
