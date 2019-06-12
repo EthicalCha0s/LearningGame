@@ -7,7 +7,9 @@ public class AreaEntrance : MonoBehaviour {
     public string transitionName;
 	// Use this for initialization
 	void Start () {
+        
         if (transitionName == PlayerController.instance.areaTransitionName) {
+            UIFade.instance.fadeFromBlack();
             PlayerController.instance.transform.position = this.transform.position;
         }
 	}
