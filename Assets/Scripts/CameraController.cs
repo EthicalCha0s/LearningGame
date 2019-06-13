@@ -1,46 +1,48 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class CameraController : MonoBehaviour {
 
     public Transform target;
-    public float smoothSpeed = 0.05f;
+    public Tilemap theMap;
+    private Vector3 bottomLeft; //Bottom left camera limit
+    private Vector3 topRight; //top right camera limit
 
-    public int maxX, maxY, minX, minY;
+    public float halfHeight;
+    public float halfWidth;
+
+    public float smoothSpeed = 0.05f;
 
 
     // Use this for initialization
     void Start() {
         target = PlayerController.instance.transform;
-        if (minY > maxY || minX > maxX) {
-            throw (new UnityException("CameraController.cs script badly initialized"));
-        }
+        //getting the camera size
+        halfHeight = Camera.main.orthographicSize;
+        halfWidth = halfHeight * Camera.main.aspect;
+
+        //setting the camera bounds
+        bottomLeft = theMap.localBounds.min + new Vector3(halfWidth, halfHeight, 0f);
+        topRight = theMap.localBounds.max + new Vector3(-halfWidth, -halfHeight, 0f);
+
+        //setting bounds for player so they cannot leave bounds
+        PlayerController.instance.setBounds(theMap.localBounds.min, theMap.localBounds.max);
 
         PlayerController.instance.camera = this;
     }
 
     // LateUpdate is called once per frame after all Updates    
     void LateUpdate() {
-        Vector3 desiredPosition = new Vector3(target.position.x, target.position.y, this.transform.position.z);
+        Vector3 desiredPosition =
+            new Vector3(//Keeps camera within set bounds
+                Mathf.Clamp(target.position.x, bottomLeft.x, topRight.x),
+                Mathf.Clamp(target.position.y, bottomLeft.y, topRight.y),
+                this.transform.position.z);
 
-        // statements below make it impossible for the camera to go out of bounds
-        if (desiredPosition.x >= maxX) {
-            desiredPosition.x = maxX;
-        }
-        else if (desiredPosition.x <= minX) {
-            desiredPosition.x = minX;
-        }
-
-        if (desiredPosition.y >= maxY) {
-            desiredPosition.y = maxY;
-        }
-        else if (desiredPosition.y <= minY) {
-            desiredPosition.y = minY;
-        }
-
+        //smoothes camera opsition
         Vector3 smoothedPosition = Vector3.Lerp(this.transform.position, desiredPosition, smoothSpeed); //Camera smoothes towards desired position
-
         this.transform.position = smoothedPosition;
     }
 }

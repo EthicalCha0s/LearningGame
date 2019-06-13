@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Countryside.unity
     guid: 12a5982c51092f64abbfa75e5fb96d29
-  - enabled: 1
-    path: Assets/Scenes/TileTown.unity
-    guid: 5e308697a88091a4cb3413d3c2c8939c
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
