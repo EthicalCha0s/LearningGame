@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -26,4 +26,30 @@ public class Slime : MonoBehaviour
                 NPCAnimator.SetFloat("lastMoveY", Input.GetAxisRaw("Vertical"));
             }
         }
+}*/
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Animation : MonoBehaviour
+{
+    private Animator anim;
+    private float Speed = 6.0f;
+
+    void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
+        {
+            anim.SetBool("isMoving", true);
+        }
+        else
+        {
+            anim.SetBool("isMoving", false);
+        }
+    }
 }

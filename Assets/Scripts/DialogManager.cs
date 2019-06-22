@@ -11,30 +11,57 @@ public class DialogManager : MonoBehaviour
     public GameObject nameBox;
 
     public string[] dialogLines;
-    public int currentline;
+    public int currentLine;
+
+    public static DialogManager instance;
+    private bool justStarted;
 
     // Start is called before the first frame update
     void Start() {
+        instance = this;
 
-        dialogText.text = dialogLines[currentline];
+        //dialogText.text = dialogLines[currentline];
     }
 
     // Update is called once per frame
     void Update() {
         if (dialogBox.activeInHierarchy) {
             if (Input.GetButtonUp("Fire1")) {
-                currentline++;
-                if (currentline == dialogLines.Length) {
-                    dialogBox.SetActive(false);
-                    currentline = 0;
+                if (!justStarted) {
+                    currentLine++;
+                    if (currentLine >= dialogLines.Length) {
+                        dialogBox.SetActive(false);
+                        currentLine = 0;
+                        PlayerController.instance.canMove = true;
+                    }
+                    else {
+                        CheckIfName();
+                        dialogText.text = dialogLines[currentLine];
+                    }
                 }
                 else {
-                    dialogText.text = dialogLines[currentline];
+                    justStarted = false;
                 }
             }
         }
+    }
+    public void ShowDialog(string[] newLines,bool isPerson) {
+        dialogLines = newLines;
+        currentLine = 0;
+        CheckIfName();
+        dialogText.text = dialogLines[currentLine];
+        dialogBox.SetActive(true);
+        justStarted = true;
+        nameBox.SetActive(isPerson);
+        PlayerController.instance.canMove = false;
 
+    }
 
-
+    public void CheckIfName() {
+        if (dialogLines[currentLine].StartsWith("n-")) {
+            
+            nameText.text = dialogLines[currentLine].Replace("n-","");
+            currentLine++;
+        }
     }
 }
