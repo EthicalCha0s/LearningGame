@@ -231,7 +231,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Test test test
+  m_Text: Line
 --- !u!222 &180701646
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -464,13 +464,8 @@ MonoBehaviour:
   nameText: {fileID: 799436949}
   dialogBox: {fileID: 1877737061}
   nameBox: {fileID: 964804467}
-  dialogLines:
-  - Hello my name is Marie
-  - This text is a test
-  - '*eats nectarine*'
-  - test 2
-  - array
-  currentline: 0
+  dialogLines: []
+  currentLine: 0
 --- !u!224 &592135649 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5606178316036958680, guid: 3647f057f57b90840b504f792b6b4da5,
@@ -547,9 +542,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Marie
-
-'
+  m_Text: Speaker
 --- !u!222 &799436950
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -570,6 +563,8 @@ GameObject:
   - component: {fileID: 808903353}
   - component: {fileID: 808903355}
   - component: {fileID: 808903356}
+  - component: {fileID: 808903358}
+  - component: {fileID: 808903357}
   m_Layer: 0
   m_Name: NPC_0
   m_TagString: Untagged
@@ -673,7 +668,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 808903352}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -686,6 +681,49 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!61 &808903357
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808903352}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.020309448, y: -0.5132232}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9375, y: 1}
+    newSize: {x: 0.9375, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3, y: 2.0264463}
+  m_EdgeRadius: 0
+--- !u!114 &808903358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808903352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0051279dad4065a43ac1c97de5a16867, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lines:
+  - It works!
+  - How are you?
+  - I am marie, the general town cutiepie
+  - How are you?
 --- !u!1 &964804467
 GameObject:
   m_ObjectHideFlags: 0
@@ -1133,7 +1171,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1877737062
 RectTransform:
   m_ObjectHideFlags: 0
