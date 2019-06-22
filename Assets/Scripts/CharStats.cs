@@ -18,7 +18,7 @@ public class CharStats : MonoBehaviour
     public int currentMP;
     public int maxMP = 30;
     public int strength;
-    public int defense;
+    public int defence;
     public int wpnPwr;
     public int armrPwr;
     public string equippedWpn;
@@ -39,6 +39,26 @@ public class CharStats : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
+        if (Input.GetKeyDown(KeyCode.K)) {
+            addExp(500);
+        }
+    }
 
+    public void addExp(int expToAdd) {
+        currentExp += expToAdd;
+
+        if (currentExp >= expToNextLevel[playerLevel]) {
+            currentExp -= expToNextLevel[playerLevel];
+            playerLevel++;
+
+            //determine whether to add to strength or defence based on odd or even
+            if (playerLevel % 2 == 0) {
+                strength++;
+            }
+            else {
+                defence++;
+            }
+            maxHP = Mathf.FloorToInt(maxHP * 1.05f);
+        }
     }
 }
