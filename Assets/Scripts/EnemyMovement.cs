@@ -10,14 +10,12 @@ public class EnemyMovement : MonoBehaviour {
     float EWidth;
     public LayerMask EMask;
 
-	// Use this for initialization
 	void Start () {
         EPosition = this.transform;
         Ebody = this.GetComponent<Rigidbody2D>();
         EWidth = this.GetComponent<SpriteRenderer>().bounds.extents.x;
 	}
 	
-	// Update is called once per frame
 	void FixedUpdate () {
         Vector2 lineCastPos = EPosition.position - transform.right * EWidth;
         bool isGrounded = Physics2D.Linecast(lineCastPos, lineCastPos + Vector2.down, EMask);
