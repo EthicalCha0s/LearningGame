@@ -995,6 +995,7 @@ GameObject:
   - component: {fileID: 1587623999449678432}
   - component: {fileID: 1587623999449678433}
   - component: {fileID: 1587623999449678434}
+  - component: {fileID: 6995397527946389341}
   m_Layer: 5
   m_Name: Fade UI
   m_TagString: Untagged
@@ -1016,7 +1017,6 @@ RectTransform:
   - {fileID: 1587623999288364712}
   - {fileID: 1587624000332626393}
   - {fileID: 3771094074180161390}
-  - {fileID: 8073413341159500837}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1119,6 +1119,19 @@ MonoBehaviour:
   nameBox: {fileID: 1587623999630719180}
   dialogLines: []
   currentLine: 0
+--- !u!114 &6995397527946389341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587623999449678435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 339253b7038c56d46a433e5d85bc75a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theMenu: {fileID: 8161789831581481978}
 --- !u!1 &1587623999630719180
 GameObject:
   m_ObjectHideFlags: 0
@@ -3268,7 +3281,7 @@ GameObject:
   - component: {fileID: 8073413341159500837}
   - component: {fileID: 1239097454721505832}
   m_Layer: 0
-  m_Name: Characters
+  m_Name: Character infos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3288,8 +3301,8 @@ RectTransform:
   - {fileID: 5035567703812810119}
   - {fileID: 7373549405952924075}
   - {fileID: 6523547890508941682}
-  m_Father: {fileID: 1587623999449678430}
-  m_RootOrder: 3
+  m_Father: {fileID: 3771094074180161390}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3902,6 +3915,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6278950786159390590}
+  - {fileID: 8073413341159500837}
   m_Father: {fileID: 1587623999449678430}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
