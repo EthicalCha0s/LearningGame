@@ -1132,6 +1132,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   theMenu: {fileID: 8161789831581481978}
+  nameText:
+  - {fileID: 1191761485656768108}
+  - {fileID: 2485409045451166608}
+  - {fileID: 8032642018783760135}
+  hpText:
+  - {fileID: 3116962540414519883}
+  - {fileID: 4181153974494212441}
+  - {fileID: 3028774491878063393}
+  mpText:
+  - {fileID: 3695908022132347214}
+  - {fileID: 5423466282582979373}
+  - {fileID: 6987179111878397299}
+  lvlText:
+  - {fileID: 5742216887002266971}
+  - {fileID: 4413264742514626520}
+  - {fileID: 7148038195199218829}
+  expText:
+  - {fileID: 6126654462300759293}
+  - {fileID: 7833841879123044295}
+  - {fileID: 3355465851117275658}
+  expSlider:
+  - {fileID: 1541242154094075953}
+  - {fileID: 5729296148990263846}
+  - {fileID: 4773378760632750372}
+  characterImage:
+  - {fileID: 7062966170686987013}
+  - {fileID: 5912022739026633187}
+  - {fileID: 5713044410953095852}
+  charStatHolder:
+  - {fileID: 4746858507079789757}
+  - {fileID: 5922125801675427056}
+  - {fileID: 8545899465935252260}
 --- !u!1 &1587623999630719180
 GameObject:
   m_ObjectHideFlags: 0
@@ -3049,7 +3081,7 @@ GameObject:
   - component: {fileID: 2120296146275740877}
   - component: {fileID: 4546237672042708443}
   m_Layer: 5
-  m_Name: Char Info (1)
+  m_Name: Char Info 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4178,7 +4210,7 @@ GameObject:
   - component: {fileID: 9132209810157762760}
   - component: {fileID: 917379534733386863}
   m_Layer: 5
-  m_Name: Char Info (2)
+  m_Name: Char Info 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

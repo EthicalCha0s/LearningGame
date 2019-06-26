@@ -50,6 +50,9 @@ MonoBehaviour:
   - {fileID: 5155947601365213522}
   - {fileID: 5155947602721578407}
   - {fileID: 2775342011324000213}
+  gameMenuOpen: 0
+  dialogActive: 0
+  fadingBetweenAreas: 0
 --- !u!1 &5155947601365213517
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4775b19384ec440428fc619a23e9bc7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  charName: Player
+  charName: Boris
   playerLevel: 1
   currentExp: 0
   expToNextLevel: 
@@ -127,7 +130,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5155947602721578406
 Transform:
   m_ObjectHideFlags: 0
@@ -154,7 +157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4775b19384ec440428fc619a23e9bc7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  charName: Player2
+  charName: Thomas
   playerLevel: 3
   currentExp: 543
   expToNextLevel: 
@@ -215,8 +218,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4775b19384ec440428fc619a23e9bc7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  charName: Player2
-  playerLevel: 3
+  charName: Marie
+  playerLevel: 2
   currentExp: 543
   expToNextLevel: 
   maxLevel: 100
