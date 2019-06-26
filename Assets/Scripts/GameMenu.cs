@@ -18,9 +18,11 @@ public class GameMenu : MonoBehaviour
         if (Input.GetButtonDown("Fire2")) {
             if (theMenu.activeInHierarchy) {
                 theMenu.SetActive(false);
+                PlayerController.instance.canMove = true;
             }
             else {
                 theMenu.SetActive(true);
+                PlayerController.instance.canMove = false;
             }
         }
     }
