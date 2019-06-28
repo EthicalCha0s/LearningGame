@@ -19,7 +19,7 @@ public class GameMenu : MonoBehaviour
     public Image characterImageSingle;
     public GameObject charStatHolderSingle;
 
-    private int activePlayerCount,activePlayerPos;
+    private int activePlayerCount, activePlayerPos;
 
     // Start is called before the first frame update
     void Start() {
@@ -59,12 +59,15 @@ public class GameMenu : MonoBehaviour
                 activePlayerCount++;
                 activePlayerPos = i;
             }
+            else {
+                charStatHolder[i].SetActive(false);
+            }
         }
 
         if (activePlayerCount > 1) {
             charStatHolderSingle.SetActive(false);
             for (int i = 0; i < playerStats.Length; i++) {
-                if (playerStats[i].gameObject.activeInHierarchy) {
+                if (playerStats[i].gameObject.activeInHierarchy) {                    
                     //Show the active player in the menu
                     charStatHolder[i].SetActive(true);
 
@@ -78,13 +81,10 @@ public class GameMenu : MonoBehaviour
                     expSlider[i].value = playerStats[i].currentExp;
                     characterImage[i].sprite = playerStats[i].charImage;
                 }
-                else {
-                    charStatHolder[i].SetActive(false);
-                }
             }
         }
         else if (activePlayerCount == 1) {
-            charStatHolder[0].SetActive(false);
+            charStatHolder[activePlayerPos].SetActive(false);
             charStatHolderSingle.SetActive(true);
 
             nameTextSingle.text = playerStats[activePlayerPos].charName;
