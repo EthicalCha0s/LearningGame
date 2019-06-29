@@ -54,36 +54,29 @@ public class GameMenu : MonoBehaviour
 
         activePlayerCount = 0;
 
+        //Code Below to display correct player stat menu depending on amount of players
         for (int i = 0; i < playerStats.Length; i++) {
             if (playerStats[i].gameObject.activeInHierarchy) {
                 activePlayerCount++;
                 activePlayerPos = i;
+                //Show the active player in the menu
+                charStatHolder[i].SetActive(true);
+
+                //Update their stats in the menu
+                nameText[i].text = playerStats[i].charName;
+                hpText[i].text = "HP: " + playerStats[i].currentHP + "/" + playerStats[i].maxHP;
+                mpText[i].text = "MP: " + playerStats[i].currentMP + "/" + playerStats[i].maxMP;
+                lvlText[i].text = "Lvl: " + playerStats[i].playerLevel;
+                expText[i].text = "" + playerStats[i].currentExp + "/" + playerStats[i].expToNextLevel[playerStats[i].playerLevel];
+                expSlider[i].maxValue = playerStats[i].expToNextLevel[playerStats[i].playerLevel];
+                expSlider[i].value = playerStats[i].currentExp;
+                characterImage[i].sprite = playerStats[i].charImage;
             }
             else {
                 charStatHolder[i].SetActive(false);
             }
         }
-
-        if (activePlayerCount > 1) {
-            charStatHolderSingle.SetActive(false);
-            for (int i = 0; i < playerStats.Length; i++) {
-                if (playerStats[i].gameObject.activeInHierarchy) {                    
-                    //Show the active player in the menu
-                    charStatHolder[i].SetActive(true);
-
-                    //Update their stats in the menu
-                    nameText[i].text = playerStats[i].charName;
-                    hpText[i].text = "HP: " + playerStats[i].currentHP + "/" + playerStats[i].maxHP;
-                    mpText[i].text = "MP: " + playerStats[i].currentMP + "/" + playerStats[i].maxMP;
-                    lvlText[i].text = "Lvl: " + playerStats[i].playerLevel;
-                    expText[i].text = "" + playerStats[i].currentExp + "/" + playerStats[i].expToNextLevel[playerStats[i].playerLevel];
-                    expSlider[i].maxValue = playerStats[i].expToNextLevel[playerStats[i].playerLevel];
-                    expSlider[i].value = playerStats[i].currentExp;
-                    characterImage[i].sprite = playerStats[i].charImage;
-                }
-            }
-        }
-        else if (activePlayerCount == 1) {
+        if (activePlayerCount == 1) {
             charStatHolder[activePlayerPos].SetActive(false);
             charStatHolderSingle.SetActive(true);
 
@@ -103,6 +96,9 @@ public class GameMenu : MonoBehaviour
             mpSliderSingle.value = playerStats[activePlayerPos].currentMP;
 
             characterImageSingle.sprite = playerStats[activePlayerPos].charImage;
+        }
+        else {
+            charStatHolderSingle.SetActive(false);
         }
     }
 }
