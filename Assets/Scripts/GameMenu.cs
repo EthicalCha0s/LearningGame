@@ -5,8 +5,9 @@ using UnityEngine.UI;
 
 public class GameMenu : MonoBehaviour
 {
-
     public GameObject theMenu;
+    public GameObject[] windows;
+
     private CharStats[] playerStats;
 
     public Text[] nameText, hpText, mpText, lvlText, expText;
@@ -19,7 +20,7 @@ public class GameMenu : MonoBehaviour
     public Image characterImageSingle;
     public GameObject charStatHolderSingle;
 
-    private int activePlayerCount,activePlayerPos;
+    private int activePlayerCount, activePlayerPos;
 
     // Start is called before the first frame update
     void Start() {
@@ -30,8 +31,9 @@ public class GameMenu : MonoBehaviour
     void Update() {
         if (Input.GetButtonDown("Fire2")) {
             if (theMenu.activeInHierarchy) {
-                theMenu.SetActive(false);
-                GameManager.instance.gameMenuOpen = false;
+                // theMenu.SetActive(false);
+                // GameManager.instance.gameMenuOpen = false;
+                CloseMenu();
             }
             else {
                 theMenu.SetActive(true);
@@ -54,37 +56,30 @@ public class GameMenu : MonoBehaviour
 
         activePlayerCount = 0;
 
+        //Code Below to display correct player stat menu depending on amount of players
         for (int i = 0; i < playerStats.Length; i++) {
             if (playerStats[i].gameObject.activeInHierarchy) {
                 activePlayerCount++;
                 activePlayerPos = i;
+                //Show the active player in the menu
+                charStatHolder[i].SetActive(true);
+
+                //Update their stats in the menu
+                nameText[i].text = playerStats[i].charName;
+                hpText[i].text = "HP: " + playerStats[i].currentHP + "/" + playerStats[i].maxHP;
+                mpText[i].text = "MP: " + playerStats[i].currentMP + "/" + playerStats[i].maxMP;
+                lvlText[i].text = "Lvl: " + playerStats[i].playerLevel;
+                expText[i].text = "" + playerStats[i].currentExp + "/" + playerStats[i].expToNextLevel[playerStats[i].playerLevel];
+                expSlider[i].maxValue = playerStats[i].expToNextLevel[playerStats[i].playerLevel];
+                expSlider[i].value = playerStats[i].currentExp;
+                characterImage[i].sprite = playerStats[i].charImage;
+            }
+            else {
+                charStatHolder[i].SetActive(false);
             }
         }
-
-        if (activePlayerCount > 1) {
-            charStatHolderSingle.SetActive(false);
-            for (int i = 0; i < playerStats.Length; i++) {
-                if (playerStats[i].gameObject.activeInHierarchy) {
-                    //Show the active player in the menu
-                    charStatHolder[i].SetActive(true);
-
-                    //Update their stats in the menu
-                    nameText[i].text = playerStats[i].charName;
-                    hpText[i].text = "HP: " + playerStats[i].currentHP + "/" + playerStats[i].maxHP;
-                    mpText[i].text = "MP: " + playerStats[i].currentMP + "/" + playerStats[i].maxMP;
-                    lvlText[i].text = "Lvl: " + playerStats[i].playerLevel;
-                    expText[i].text = "" + playerStats[i].currentExp + "/" + playerStats[i].expToNextLevel[playerStats[i].playerLevel];
-                    expSlider[i].maxValue = playerStats[i].expToNextLevel[playerStats[i].playerLevel];
-                    expSlider[i].value = playerStats[i].currentExp;
-                    characterImage[i].sprite = playerStats[i].charImage;
-                }
-                else {
-                    charStatHolder[i].SetActive(false);
-                }
-            }
-        }
-        else if (activePlayerCount == 1) {
-            charStatHolder[0].SetActive(false);
+        if (activePlayerCount == 1) {
+            charStatHolder[activePlayerPos].SetActive(false);
             charStatHolderSingle.SetActive(true);
 
             nameTextSingle.text = playerStats[activePlayerPos].charName;
@@ -104,5 +99,28 @@ public class GameMenu : MonoBehaviour
 
             characterImageSingle.sprite = playerStats[activePlayerPos].charImage;
         }
+        else {
+            charStatHolderSingle.SetActive(false);
+        }
+    }
+
+    public void ToggleWindow(int windowNumber) {
+        for (int i = 0; i < windows.Length; i++) {
+            if (i == windowNumber) {
+                windows[i].SetActive(!windows[i].activeInHierarchy);
+            }
+            else {
+                windows[i].SetActive(false);
+            }
+        }
+    }
+
+    public void CloseMenu() {
+        for (int i = 0; i < windows.Length; i++) {
+            windows[i].SetActive(false);
+        }
+        theMenu.SetActive(false);
+
+        GameManager.instance.gameMenuOpen = false;
     }
 }
