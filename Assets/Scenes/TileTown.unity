@@ -11620,6 +11620,11 @@ PrefabInstance:
       propertyPath: m_TileMatrixArray.Array.data[0].m_Data.e13
       value: 6.9e-44
       objectReference: {fileID: 0}
+    - target: {fileID: 6459734451459144241, guid: 269b1ec3468b48d498dd5bee8631b51e,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3518058446411344603, guid: 269b1ec3468b48d498dd5bee8631b51e,
         type: 3}
       propertyPath: m_Tiles.Array.size
@@ -18465,6 +18470,11 @@ PrefabInstance:
       propertyPath: m_Tiles.Array.data[83].second.m_TileSpriteIndex
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6490809850730019252, guid: 269b1ec3468b48d498dd5bee8631b51e,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6459734452385998471, guid: 269b1ec3468b48d498dd5bee8631b51e,
         type: 3}
       propertyPath: m_ChunkCullingBounds.x
@@ -18474,6 +18484,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ChunkCullingBounds.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6459734452385998471, guid: 269b1ec3468b48d498dd5bee8631b51e,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6459734452385998469, guid: 269b1ec3468b48d498dd5bee8631b51e,
         type: 3}
