@@ -5698,10 +5698,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4672433328243958, guid: 702641b5e758742469a6bdb1a85b6b9c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.03
-      objectReference: {fileID: 0}
     - target: {fileID: 114805187969022656, guid: 702641b5e758742469a6bdb1a85b6b9c,
         type: 3}
       propertyPath: areaToLoad
@@ -5716,6 +5712,10 @@ PrefabInstance:
         type: 3}
       propertyPath: transitionName
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672433328243958, guid: 702641b5e758742469a6bdb1a85b6b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 702641b5e758742469a6bdb1a85b6b9c, type: 3}
