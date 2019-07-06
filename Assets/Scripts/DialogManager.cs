@@ -19,7 +19,6 @@ public class DialogManager : MonoBehaviour
     // Start is called before the first frame update
     void Start() {
         instance = this;
-
         //dialogText.text = dialogLines[currentline];
     }
 
@@ -32,7 +31,7 @@ public class DialogManager : MonoBehaviour
                     if (currentLine >= dialogLines.Length) {
                         dialogBox.SetActive(false);
                         currentLine = 0;
-                        PlayerController.instance.canMove = true;
+                        GameManager.instance.dialogActive = false;
                     }
                     else {
                         CheckIfName();
@@ -53,13 +52,11 @@ public class DialogManager : MonoBehaviour
         dialogBox.SetActive(true);
         justStarted = true;
         nameBox.SetActive(isPerson);
-        PlayerController.instance.canMove = false;
-
+        GameManager.instance.dialogActive = true;
     }
 
     public void CheckIfName() {
         if (dialogLines[currentLine].StartsWith("n-")) {
-            
             nameText.text = dialogLines[currentLine].Replace("n-","");
             currentLine++;
         }

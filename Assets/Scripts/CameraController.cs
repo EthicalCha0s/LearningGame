@@ -10,8 +10,8 @@ public class CameraController : MonoBehaviour {
     private Vector3 bottomLeft; //Bottom left camera limit
     private Vector3 topRight; //top right camera limit
 
-    public float halfHeight;
-    public float halfWidth;
+    private float halfHeight;
+    private float halfWidth;
 
     public float smoothSpeed = 0.05f;
 
