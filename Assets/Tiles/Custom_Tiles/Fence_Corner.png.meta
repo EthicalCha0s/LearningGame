@@ -1,13 +1,7 @@
 fileFormatVersion: 2
-guid: a40a4371fc16b6d4e9f93c803929de5a
+guid: 1f5ebded901b3874ca44ff374e178764
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 2609851761605400732
-    second: market_0
-  - first:
-      213: -3214420094907798123
-    second: market_1
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -46,12 +40,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 330
+  spritePixelsToUnits: 160
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -99,53 +93,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: market_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 330
-        width: 380
-        height: 330
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a041d02cfafc414ba5a3a5c1ef28946
-      internalID: 2609851761605400732
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: market_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 380
-        height: 330
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d0fddd443026b1498058cb8885710e4
-      internalID: -3214420094907798123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e6b2c0398ffebf24f90d71084763ec60
+    spriteID: 3a61753d6d9ac4143ad626a8eb59667a
     internalID: 0
     vertices: []
     indices: 
