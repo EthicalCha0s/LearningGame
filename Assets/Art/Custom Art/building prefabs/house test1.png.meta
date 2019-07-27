@@ -14,6 +14,102 @@ TextureImporter:
   - first:
       213: 5815667409700637388
     second: house test1_3
+  - first:
+      213: 113369533967845807
+    second: house test1_4
+  - first:
+      213: -2318057396717720653
+    second: house test1_5
+  - first:
+      213: 7155910280458285366
+    second: house test1_6
+  - first:
+      213: -3952665588482384143
+    second: house test1_7
+  - first:
+      213: 1001931899702893727
+    second: house test1_8
+  - first:
+      213: -2260327061766016836
+    second: house test1_9
+  - first:
+      213: -2011672624970735914
+    second: house test1_10
+  - first:
+      213: 2624140216794643464
+    second: house test1_11
+  - first:
+      213: -1676410662876523141
+    second: house test1_12
+  - first:
+      213: -7056355250999700411
+    second: house test1_13
+  - first:
+      213: 8313563037127098569
+    second: house test1_14
+  - first:
+      213: -9142581514634075895
+    second: house test1_15
+  - first:
+      213: 5294396276374681072
+    second: house test1_16
+  - first:
+      213: -2696816934790838330
+    second: house test1_17
+  - first:
+      213: 1918818015271663479
+    second: house test1_18
+  - first:
+      213: -848808920836938583
+    second: house test1_19
+  - first:
+      213: 1697789954954817377
+    second: house test1_20
+  - first:
+      213: 4029206215828846151
+    second: house test1_21
+  - first:
+      213: 4577066709008741838
+    second: house test1_22
+  - first:
+      213: 8920670928964344737
+    second: house test1_23
+  - first:
+      213: 2166251884345192889
+    second: house test1_24
+  - first:
+      213: 5628595064051554975
+    second: house test1_25
+  - first:
+      213: 2146895164971079833
+    second: house test1_26
+  - first:
+      213: -442475323169376454
+    second: house test1_27
+  - first:
+      213: 525715133580941990
+    second: house test1_28
+  - first:
+      213: -9085694125033902540
+    second: house test1_29
+  - first:
+      213: 7608440193516341299
+    second: house test1_30
+  - first:
+      213: 5129838211432641769
+    second: house test1_31
+  - first:
+      213: -2835705789989884362
+    second: house test1_32
+  - first:
+      213: -8787430785620595887
+    second: house test1_33
+  - first:
+      213: 8975843535973721020
+    second: house test1_34
+  - first:
+      213: -1284162357470525744
+    second: house test1_35
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -43,7 +139,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -121,7 +217,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b82ec65755351164f8b8de9220aa5970
+      spriteID: 6633b4bd0c9178a4ebf47a9d281bcd75
       internalID: 5138851372876416082
       vertices: []
       indices: 
@@ -142,7 +238,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b0d09a4db8ebba49bb46dc018b4f72e
+      spriteID: 3649b1e1789a6b04eaf884c36f204f68
       internalID: -3573406595797528865
       vertices: []
       indices: 
@@ -163,7 +259,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b31953b8b3606843980d580805c4deb
+      spriteID: ca23cc34f860e8a4da1d81688b2de4d4
       internalID: 6640699970376641174
       vertices: []
       indices: 
@@ -184,7 +280,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97b2ee12163a21546816057267073e16
+      spriteID: a838b9b500e310144bd058fe65ca2833
       internalID: 5815667409700637388
       vertices: []
       indices: 
