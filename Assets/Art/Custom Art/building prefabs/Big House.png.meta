@@ -1,0 +1,2512 @@
+fileFormatVersion: 2
+guid: e98707fd05126394abb68114a86aee49
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7292298619542805918
+    second: Big House_0
+  - first:
+      213: -6880956036404938011
+    second: Big House_1
+  - first:
+      213: -5851217425051168166
+    second: Big House_2
+  - first:
+      213: -2966632237132133475
+    second: Big House_3
+  - first:
+      213: 4587391564559952919
+    second: Big House_4
+  - first:
+      213: 6430863648034041581
+    second: Big House_5
+  - first:
+      213: -6047139352186348985
+    second: Big House_6
+  - first:
+      213: -5580760654024580328
+    second: Big House_7
+  - first:
+      213: 2627319837512814379
+    second: Big House_8
+  - first:
+      213: 7014727390448633936
+    second: Big House_9
+  - first:
+      213: 4558225625546537112
+    second: Big House_10
+  - first:
+      213: 4912229244724365869
+    second: Big House_11
+  - first:
+      213: 8786218456990740765
+    second: Big House_12
+  - first:
+      213: 5359780469547436452
+    second: Big House_13
+  - first:
+      213: -6752402490122820602
+    second: Big House_14
+  - first:
+      213: 2133715013175719532
+    second: Big House_15
+  - first:
+      213: -3455781337335952810
+    second: Big House_16
+  - first:
+      213: 3448259568433817543
+    second: Big House_17
+  - first:
+      213: 3690928933498064670
+    second: Big House_18
+  - first:
+      213: -4252871354540096878
+    second: Big House_19
+  - first:
+      213: 4078911638589027048
+    second: Big House_20
+  - first:
+      213: 5114881651000506364
+    second: Big House_21
+  - first:
+      213: -3845587439608031999
+    second: Big House_22
+  - first:
+      213: -3153973206831962999
+    second: Big House_23
+  - first:
+      213: 8664716429083096035
+    second: Big House_24
+  - first:
+      213: 5474797337702653775
+    second: Big House_25
+  - first:
+      213: -669768223588817255
+    second: Big House_26
+  - first:
+      213: 2414725740949956661
+    second: Big House_27
+  - first:
+      213: 666150625208940365
+    second: Big House_28
+  - first:
+      213: 4807381880999099396
+    second: Big House_29
+  - first:
+      213: -3179125402455090074
+    second: Big House_30
+  - first:
+      213: 6785293190614773386
+    second: Big House_31
+  - first:
+      213: -2061906501093405089
+    second: Big House_32
+  - first:
+      213: -6029773959434305284
+    second: Big House_33
+  - first:
+      213: 2007508991623333250
+    second: Big House_34
+  - first:
+      213: -3593897317204109633
+    second: Big House_35
+  - first:
+      213: 7637317145827196685
+    second: Big House_36
+  - first:
+      213: 1733174100355934820
+    second: Big House_37
+  - first:
+      213: 7914608709100938602
+    second: Big House_38
+  - first:
+      213: -5618684476653387918
+    second: Big House_39
+  - first:
+      213: -1521584695434174974
+    second: Big House_40
+  - first:
+      213: -3631040968344689253
+    second: Big House_41
+  - first:
+      213: -8111371127782870190
+    second: Big House_42
+  - first:
+      213: -486623407774917380
+    second: Big House_43
+  - first:
+      213: 8669113443019716964
+    second: Big House_44
+  - first:
+      213: 8011209592725922487
+    second: Big House_45
+  - first:
+      213: -8021847471747719724
+    second: Big House_46
+  - first:
+      213: -726174424264235326
+    second: Big House_47
+  - first:
+      213: -6389139499225995854
+    second: Big House_48
+  - first:
+      213: 3604960158606480786
+    second: Big House_49
+  - first:
+      213: -71184451486577174
+    second: Big House_50
+  - first:
+      213: -882326135915623626
+    second: Big House_51
+  - first:
+      213: 8957501414849271935
+    second: Big House_52
+  - first:
+      213: -6176507854882045847
+    second: Big House_53
+  - first:
+      213: 967852753810604224
+    second: Big House_54
+  - first:
+      213: 2573829770747121638
+    second: Big House_55
+  - first:
+      213: 2951905610115336276
+    second: Big House_56
+  - first:
+      213: 1216537946616750072
+    second: Big House_57
+  - first:
+      213: -6121179972141689947
+    second: Big House_58
+  - first:
+      213: -5331210703353872722
+    second: Big House_59
+  - first:
+      213: 1769327640773674087
+    second: Big House_60
+  - first:
+      213: -2077486172293638273
+    second: Big House_61
+  - first:
+      213: -2281636507735078780
+    second: Big House_62
+  - first:
+      213: -8437672078976102209
+    second: Big House_63
+  - first:
+      213: 2034125371098248582
+    second: Big House_64
+  - first:
+      213: -2685559798740111960
+    second: Big House_65
+  - first:
+      213: 3947058664376800760
+    second: Big House_66
+  - first:
+      213: 4885956229364001924
+    second: Big House_67
+  - first:
+      213: -6007910948965674951
+    second: Big House_68
+  - first:
+      213: 4335605883851916025
+    second: Big House_69
+  - first:
+      213: 5683940279005129503
+    second: Big House_70
+  - first:
+      213: -7615203423438486939
+    second: Big House_71
+  - first:
+      213: -1611454844135249008
+    second: Big House_72
+  - first:
+      213: 4286525262418925007
+    second: Big House_73
+  - first:
+      213: 3990735964204559892
+    second: Big House_74
+  - first:
+      213: 588302200138576419
+    second: Big House_75
+  - first:
+      213: 1597465640255758812
+    second: Big House_76
+  - first:
+      213: -5914262393257905989
+    second: Big House_77
+  - first:
+      213: 6222195517991870056
+    second: Big House_78
+  - first:
+      213: -2863159698482242615
+    second: Big House_79
+  - first:
+      213: -5516463935231942122
+    second: Big House_80
+  - first:
+      213: -879487487388580342
+    second: Big House_81
+  - first:
+      213: 2355367411917018429
+    second: Big House_82
+  - first:
+      213: 7879208075796423202
+    second: Big House_83
+  - first:
+      213: -7153261674510495190
+    second: Big House_84
+  - first:
+      213: -8527697409306241903
+    second: Big House_85
+  - first:
+      213: 2950934176314517573
+    second: Big House_86
+  - first:
+      213: -7381937576506604320
+    second: Big House_87
+  - first:
+      213: 6512626173655384628
+    second: Big House_88
+  - first:
+      213: 4679760113652589436
+    second: Big House_89
+  - first:
+      213: 8484939312486839042
+    second: Big House_90
+  - first:
+      213: -6966914751448833382
+    second: Big House_91
+  - first:
+      213: 3021064044437820181
+    second: Big House_92
+  - first:
+      213: -8877165900121263155
+    second: Big House_93
+  - first:
+      213: -9128586662642166951
+    second: Big House_94
+  - first:
+      213: -60890000246484456
+    second: Big House_95
+  - first:
+      213: -7118079406497429895
+    second: Big House_96
+  - first:
+      213: 553323386934819623
+    second: Big House_97
+  - first:
+      213: -8176859149898098314
+    second: Big House_98
+  - first:
+      213: -4894558206651542081
+    second: Big House_99
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 33.9
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Big House_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 307.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50123b2065cf4e443b04970647dfdd06
+      internalID: -7292298619542805918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 307.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff54d0adcba46f4dbdedb55a5963bc4
+      internalID: -6880956036404938011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 307.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b229c1a30e5bf94a872f3f7e2d7568a
+      internalID: -5851217425051168166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 307.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3110ad18b8948ec47a29b86d0413a808
+      internalID: -2966632237132133475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 307.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bab9fb9248fe41499f41e6c29745131
+      internalID: 4587391564559952919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 307.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a8101dabc0e8248b49a2d1793a4f64
+      internalID: 6430863648034041581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 307.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d92956990503654791e7c19ef0268f4
+      internalID: -6047139352186348985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 307.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69365974d42dd8748a5d68596b697164
+      internalID: -5580760654024580328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 307.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec948aec56d4cd74cbdb5df00b330eda
+      internalID: 2627319837512814379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_9
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 307.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5088e6bb02780664d95bda75ee2a2699
+      internalID: 7014727390448633936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 273.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d0bba8c2bac794cb3ef63bd619d897
+      internalID: 4558225625546537112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 273.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1da54703dffb45438166c51b7981fc1
+      internalID: 4912229244724365869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 273.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33daa47fa97d1b4aa4a8d5c796555a3
+      internalID: 8786218456990740765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 273.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ee454d742a46647879582cb6819277
+      internalID: 5359780469547436452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_14
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 273.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f067b89b7dd574d9923d3a529f2b3f
+      internalID: -6752402490122820602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_15
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 273.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3945e8cb06fff2e4da50cab9bd372339
+      internalID: 2133715013175719532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 273.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d2ea66922e2f246904e1070e9cd779
+      internalID: -3455781337335952810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_17
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 273.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55ab0da7db11b041bc3fb8d74b819cd
+      internalID: 3448259568433817543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_18
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 273.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4378eebebeeeef643b06779e26a0dc20
+      internalID: 3690928933498064670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_19
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 273.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da798a97370b0f46b9bbec14e3f839e
+      internalID: -4252871354540096878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 239.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779743d9bf754024ebe4db9b56829b93
+      internalID: 4078911638589027048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 239.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04daf384bbe7b95439e3c276ac80e54a
+      internalID: 5114881651000506364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_22
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 239.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83b182c35ba1494da326db2a2de5fee
+      internalID: -3845587439608031999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_23
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 239.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cce3d5779247a4f87c93f94f13ba9b
+      internalID: -3153973206831962999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_24
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 239.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e0bd1b4782bb141aa652c0546689a8
+      internalID: 8664716429083096035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_25
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 239.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b7775b607367c4c82496ac88d1d531
+      internalID: 5474797337702653775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_26
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 239.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d456b906f898eec49ae8aad0f094ca79
+      internalID: -669768223588817255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_27
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 239.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f873946b99001f428f16a976ccd8036
+      internalID: 2414725740949956661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_28
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 239.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e74c7cb2f88b44299ce68bac357785
+      internalID: 666150625208940365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_29
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 239.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abe539c1d15a9241a481df5d48aed28
+      internalID: 4807381880999099396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 205.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a7018417648a04090c265840cf3f7b
+      internalID: -3179125402455090074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_31
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 205.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b01bc9f6b6c51408debf37d281d423
+      internalID: 6785293190614773386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_32
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 205.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0c76ff476b2c64cb7d72d52eb7cac5
+      internalID: -2061906501093405089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_33
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 205.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c49362743579f47b6ca5230e015f15
+      internalID: -6029773959434305284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_34
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 205.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23a7f0c8dcd85043a34bdaa967925eb
+      internalID: 2007508991623333250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_35
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 205.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3277b3da8115b1545a6505bafecae227
+      internalID: -3593897317204109633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_36
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 205.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c10d4d3fc37404aa3fb0c1780be63a
+      internalID: 7637317145827196685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_37
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 205.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d287224a99b4a429ccf9d8ded54b7d
+      internalID: 1733174100355934820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_38
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 205.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310a774f5f15cee489e17543290a92c7
+      internalID: 7914608709100938602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_39
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 205.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adfb4c931c0f1a43ae4c477bcc5f653
+      internalID: -5618684476653387918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 171.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f9f7bc7a79a7048ba2fc98f2471e26
+      internalID: -1521584695434174974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_41
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 171.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3639be046c6284f86d9e67cef3fe0e
+      internalID: -3631040968344689253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_42
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 171.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7057e5b93c3bb42a0185c46eca675c
+      internalID: -8111371127782870190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_43
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 171.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499db8f0b60270947bb0b20a7a4b7cc3
+      internalID: -486623407774917380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_44
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 171.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0c50cc1bd87db4da06719b048d831c
+      internalID: 8669113443019716964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_45
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 171.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad1a4627b96e184997dc77544103928
+      internalID: 8011209592725922487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_46
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 171.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e447b571031bd4998fec04bf298c64
+      internalID: -8021847471747719724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_47
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 171.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bbc0c63abfda446945d850a6db6dcb
+      internalID: -726174424264235326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_48
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 171.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde189a489d1f0546ab3dd720cf6c7d4
+      internalID: -6389139499225995854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_49
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 171.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be48e7945f133564d9592b1d86efd901
+      internalID: 3604960158606480786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 137.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61debcfba3ebc3c47b58d97ed360992b
+      internalID: -71184451486577174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_51
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 137.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cedc80a4f01004b8a99b80f0c80b0b
+      internalID: -882326135915623626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_52
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 137.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ab38c975b18d94aaa3a28508f3cbaa
+      internalID: 8957501414849271935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_53
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 137.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31297f8b6681c3e488013e26c422ef42
+      internalID: -6176507854882045847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_54
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 137.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d93f8659611c7e4d9aad07672b0339b
+      internalID: 967852753810604224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_55
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 137.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efcd5ba440401d4f9db861ad9b78c05
+      internalID: 2573829770747121638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_56
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 137.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f9267386ff0c1449ccd381827af7a4
+      internalID: 2951905610115336276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_57
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 137.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7c8836027af9643bec1a6cf76a85d5
+      internalID: 1216537946616750072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_58
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 137.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02117a21455c2bb4baf99199585028dd
+      internalID: -6121179972141689947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_59
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 137.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1c7cb746c68b1439193b9bdd19b5e6
+      internalID: -5331210703353872722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 103.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7901ab8c097a7a44a9b6fd628722ca89
+      internalID: 1769327640773674087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_61
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 103.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7baca9759223242b742357a3c37e76
+      internalID: -2077486172293638273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_62
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 103.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b301f86dd8aa3e84e895b3629bec04d3
+      internalID: -2281636507735078780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_63
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 103.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9ea1c5e6265ef4e9ce1f417ed31a11
+      internalID: -8437672078976102209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_64
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 103.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b262b4d7a7780e34e85973a5f604d900
+      internalID: 2034125371098248582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_65
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 103.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3608390bf5be03b4e9b1e1bee0c5db21
+      internalID: -2685559798740111960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_66
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 103.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc321edcdfcd1b7439cdee903cd1728a
+      internalID: 3947058664376800760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_67
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 103.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2036847c6532cc42880a68b046ba10b
+      internalID: 4885956229364001924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_68
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 103.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a7444b30653d7459f8cc02af0a3176
+      internalID: -6007910948965674951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_69
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 103.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d65ab2360c493647aaab5224941426c
+      internalID: 4335605883851916025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 69.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01809be3fa0138145a6dc7b66bb5073b
+      internalID: 5683940279005129503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_71
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 69.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47812f5dd8e111e42934aabf3ce405aa
+      internalID: -7615203423438486939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_72
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 69.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47567e3efca16f642af74f80c4323114
+      internalID: -1611454844135249008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_73
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 69.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e0c87884a90f04f834d1bcf5bc0c16
+      internalID: 4286525262418925007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_74
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 69.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f0da8be20fd3e4a8e5dadc1800b1ae
+      internalID: 3990735964204559892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_75
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 69.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c027104e5fafd44b91a535bee6b0e20
+      internalID: 588302200138576419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_76
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 69.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc97788f15f2b949ad0f2b4aa727ea9
+      internalID: 1597465640255758812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_77
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 69.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b98cb00935b3742a3f34289f711e35
+      internalID: -5914262393257905989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_78
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 69.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ed605b1594f8d4e945760f0948b934
+      internalID: 6222195517991870056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_79
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 69.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b0af3a7001e1242934fabcba74e05e
+      internalID: -2863159698482242615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 35.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4385a0c8ad46abd4a91f686c62a250e9
+      internalID: -5516463935231942122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_81
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 35.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c2f156823b50345a23fec831026f76
+      internalID: -879487487388580342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_82
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 35.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08204690d1cc6bb449c7e1daa8a5f133
+      internalID: 2355367411917018429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_83
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 35.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d012610bda5014d87cab1ce842f617
+      internalID: 7879208075796423202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_84
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 35.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e8baa17a4bc2445a5e2fa9ee1e8cc7
+      internalID: -7153261674510495190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_85
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 35.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6b7ac88612e4d4b933b75c382758d7
+      internalID: -8527697409306241903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_86
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 35.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562b4091d1bdda2408c057cccf0fa339
+      internalID: 2950934176314517573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_87
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 35.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15283b36ab910c24fa04c345c96ecca9
+      internalID: -7381937576506604320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_88
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 35.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4314f452dac25fb43a93b86612ded1c8
+      internalID: 6512626173655384628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_89
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 35.8
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fa6fb18d0237948a02da19da1e4ed8
+      internalID: 4679760113652589436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.7999992
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051dcbec698e5b64286c62c9749b7902
+      internalID: 8484939312486839042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_91
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1.7999992
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f336497753cd8d44bb612906dd6c9059
+      internalID: -6966914751448833382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_92
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1.7999992
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2a96f1147b8a043aeb04ab42ac058b
+      internalID: 3021064044437820181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_93
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1.7999992
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51cb00ad1cde084bbba4f61b4731bae
+      internalID: -8877165900121263155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_94
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1.7999992
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f6daa16034a574a8a392a9045f974c
+      internalID: -9128586662642166951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_95
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1.7999992
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf485b9800011f4db3c198c7029f9b6
+      internalID: -60890000246484456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_96
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1.7999992
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bb8fd62d0495a4ab81f87e23ed4482
+      internalID: -7118079406497429895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_97
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1.7999992
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc20b798bdebe34ea342bd7a7bd553d
+      internalID: 553323386934819623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_98
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1.7999992
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12322648b983c5409cf0bf4eb0c2748
+      internalID: -8176859149898098314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big House_99
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1.7999992
+        width: 34.2
+        height: 34.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77711302d5b49184bb8905e5bc008473
+      internalID: -4894558206651542081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7712472fd9eb88349acd36dea12f6d30
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
