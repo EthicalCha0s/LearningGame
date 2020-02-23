@@ -2,7 +2,7 @@
 
 Hey there whoever is reading this, thanks for stopping by! Below are some instructions on how to get the game to run on your machine/update :D.
 
-the game is still very young and much of a work in progress, please feel free to mention any advice or bugs on the TOSTR discord in the beta channel.
+the game is still very young and much of a work in progress, please feel free to mention any advice or bugs on the TOSTR discord in the testing channel.
 
 # How to play the game?
 > The latest stable build can be very different than the latest development build. However it is the most easy to download and run
