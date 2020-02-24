@@ -1,6 +1,6 @@
 # LearningGame(Beta testing instructions)
 
-![demo](https://github.com/EthicalBoris/LearningGame/tree/master/images/demo.gif?raw=true)
+![demo](https://github.com/EthicalBoris/LearningGame/blob/master/Images/demo.gif?raw=true)
 
 
 Hey there whoever is reading this, thanks for stopping by! Below are some instructions on how to get the game to run on your machine/update :D.
