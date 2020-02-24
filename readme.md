@@ -1,5 +1,8 @@
 # LearningGame(Beta testing instructions)
 
+![demo](https://github.com/EthicalBoris/LearningGame/tree/master/images/demo.gif?raw=true)
+
+
 Hey there whoever is reading this, thanks for stopping by! Below are some instructions on how to get the game to run on your machine/update :D.
 
 the game is still very young and much of a work in progress, please feel free to mention any advice or bugs on the TOSTR discord in the testing channel.
