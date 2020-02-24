@@ -1,5 +1,5 @@
 # LearningGame(Beta testing instructions)
-
+![demoimage](https://github.com/EthicalBoris/LearningGame/blob/master/Images/demoimg.png?raw=true)
 ![demo](https://github.com/EthicalBoris/LearningGame/blob/master/Images/demo.gif?raw=true)
 
 
